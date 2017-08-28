@@ -1,0 +1,23 @@
+{{template "main-page.html" .}}
+
+{{define "head"}}
+<title>Note Page</title>
+{{end}}
+
+{{define "body"}}
+
+{{$id := .Value "note-id"}}
+
+<div>
+NOTE ID: {{$id}}
+</div>
+
+{{end}}
+
+{{define "script"}}
+
+<script>
+// console.log("testing")
+</script>
+
+{{end}}
